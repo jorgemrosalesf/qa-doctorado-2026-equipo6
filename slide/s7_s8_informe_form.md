@@ -1,14 +1,8 @@
 # Presentación de Hallazgos: IA para QA - Generación, Selección y Priorización de Pruebas
-
-**Participantes:**
-  - EVANS BALCAZAR VEIZAGA  
-  - JORGE MARCELO ROSALES FUENTES  
-  - MARCELO CORDERO FLORES  
-  - SHIRLEY EULALIA PEREZ DELGADILLO   
-**Fecha**: 26 de febrero de 2026  
+ 
 **Objetivo**: Síntesis de aplicaciones de IA (GenAI, ML, RL) en QA con evidencia científica, riesgos, gobernanza y recomendaciones prácticas.
 
-## Slide 1: Título y Equipo
+## Slide 0: Título y Equipo
 - Tema: IA para QA: Generación, Selección y Priorización de Pruebas  
 - Equipo: 
     - EVANS BALCAZAR VEIZAGA  
@@ -17,6 +11,15 @@
     - SHIRLEY EULALIA PEREZ DELGADILLO     
 - Fecha: Febrero 26, 2026  
 - Enfoque: Hallazgos con respaldo académico (papers 2023-2026), tendencias actuales y límites.
+
+## Slide 1: Informe breve — Estado del arte
+- El uso de la IA en QA de software ha pasado de métodos heurísticos a modelos de Machine Learning y Sistemas Generativos.
+Generación de pruebas: inicialmente con algoritmos evolutivos (SBST, EvoSuite) para maximizar cobertura; hoy con NLP y LLMs, que crean casos de prueba desde requisitos o código.
+- Selección de pruebas: de técnicas clásicas de reducción hacia modelos predictivos que analizan cambios, defectos y riesgos; el aprendizaje supervisado permite elegir el subconjunto más eficaz en integración continua.
+Priorización de pruebas: de estrategias basadas en cobertura hacia modelos inteligentes que ordenan según criticidad, impacto o probabilidad de fallo, optimizando la detección temprana de defectos.
+- Tendencias actuales: integración de pipelines DevOps con sistemas adaptativos y enfoque human-in-the-loop para mitigar riesgos de explicabilidad y relevancia.
+- De todas maneras, se puede afirmar que la IA no reemplaza al ingeniero de pruebas, sino que potencia su capacidad analítica y estratégica, mejorando eficiencia y calidad en entornos complejos y de entrega rápida.
+ 
 
 ## Slide 2: Alcance del Tema
 - **Qué cubre**: Generación de casos con LLMs/GenAI, selección/optimización de suites con ML, priorización basada en riesgo con RL; integración en CI/CD; risk-based testing.  
